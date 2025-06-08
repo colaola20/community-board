@@ -1,0 +1,46 @@
+.menuPage {
+  background: #fff;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2.5rem 2rem;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.menuPage h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a3a4a;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 2px 8px rgba(0,0,0,0.08);
+}
+
+.menuPage p {
+  font-size: 1.2rem;
+  color: #222;
+  margin-top: 1.5rem;
+}
+
+/* Add to menuPage.css */
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem auto 0 auto;
+  max-width: 400px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f0f4fa;
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1.15rem;
+  color: #222;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}

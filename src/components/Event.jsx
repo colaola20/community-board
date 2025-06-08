@@ -1,9 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+import '/Users/olha/community-board/src/components/event.css'
+
 const Event = (props) => {
+    const navigate = useNavigate();
     const handleClick = () => {
-        alert(`Viewing menu for ${props.eventName}`);
-        // You can add more logic here, like opening a modal or navigating
-    }
+        navigate(`/menu/${encodeURIComponent(props.eventName)}`);
+    };
     return (
         <div className='event'>
             <img className='eventImg' src={props.imgURL} alt="Remote" />

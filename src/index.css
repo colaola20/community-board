@@ -8,25 +8,6 @@
   height: 100%;
 }
 
-.event {
-  background: rgb(252, 252, 252);
-  padding-top:0%;
-  padding-bottom: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-.eventImg {
-  width: 350px;
-  height: 350px;
-  max-width: 350px;
-  max-height: 350px;
-  object-fit: cover;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
-  display: block;
-  margin: 0 auto;
-}
-
 .button {
   background-color: #c61e15;
   color: #fff;
