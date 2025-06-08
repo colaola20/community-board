@@ -1,11 +1,11 @@
 .flex-container {
-  max-width: 1280px;
+  flex: 1; /* allow it to grow and fill vertical space */
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; /* vertical centering */
   gap: 30px;
-  justify-content: center; /* aligns items horizontally */
-  align-items: center;     /* aligns items vertically */
-  flex-wrap: wrap; 
-  height: 100%;
+  width: 100%;
 }
 
 .button {
